@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.imagem_fundo{
+    width: 100%;
+    height: 735px;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.shadow{
+    width: 100%;
+    height: 100%;   
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content:space-between;
+}
+
+.logo{
+    display: flex;
+    width: 300px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    display: block;
+    width: 180px;
+}
+
+.menu{
+    display: flex;
+    width: 300px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.languages{
+    width: 120px;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid white;
+    margin-right: 15px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;    
+}
+
+.menu button{
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 15px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.texto{
+    display: block;
+    max-width: 950px;
+    padding-top: 160px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.texto h1{
+    font-size: 60px;
+}
+
+.texto h2{
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.texto h3{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.enviar-email{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+#email{
+    width: 500px;
+    height: 70px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.enviar{
+    width: 200px;
+    height: 74px;
+    background-color: rgb(212, 0, 0);
+    color: white;
+    font-size: 30px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color: red;
+}
+
+.divider{
+    width: 100%;
+    height: 8px;
+    background-color: rgba(128, 128, 128, 0.300);
+}
+
+.conteudo{
+    width: 100%;
+    height: 350px;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    color: white;
+    text-align:left;
+    margin-right: 20px;
+}
+
+.text h1{
+    font-size: 51px ;
+    margin-bottom: 20px;
+}
+
+.text p{
+    font-size: 28px ;
+}
+
+.image{
+    position: relative;
+}
+
+.image img{
+    width: 500px;
+}
+
+#tv_image{
+    top: 79px ;
+    left: 60px;
+    width:400px;
+    position: absolute;
+    z-index: -1;
+}
+
+.perguntas{
+    width: 100%;
+    color: white;
+    margin-top: 70px;
+}
+
+.perguntas h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.perguntas p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.bloco_perguntas{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.caixa_pergunta{
+    display: flex;
+    width: 95%;
+    height: 75px;
+    background-color: #303030;
+    margin: 10px 0;
+    font-size: 25px;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.caixa_pergunta a{
+    text-decoration: none;
+    color: white;
+}
+
+.mais{
+    font-size: 50px;
+}
+
+footer{
+    width: 45%;
+    height: 380px;
+    margin: 0 auto;
+    text-align: left;
+    color: #737373;
+}
+
+footer h2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.bloco_colunas{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.colunas{
+    width: 700px;
+    font-size: 12.5px;
+}
+
+.colunas ul{
+    list-style: none;
+}
+
+.colunas ul li{
+    padding: 8px 0;
+}
+
+
+.colunas a{
+    text-decoration: none;
+    color: #737373;
+}
+
+.colunas a:hover{
+    border-bottom: 1px solid #737373;
+}
+
+.languages2{
+    width: 125px;
+    height: 50px;
+    background-color: transparent;
+    color: #737373;
+    border: 1px solid #737373;
+    border-radius: 2px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+footer p{
+    margin-top: 20px;
+    font-size: 13px;
+}
